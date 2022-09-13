@@ -7,7 +7,7 @@ const ProductListApi = () => {
     url: `${BASE_URL}product`,
     params: { categoryID: "aps", keyword: "iphone", country: "US", page: "1" },
     headers: {
-      "X-RapidAPI-Key": "844bb4d3f3mshe539ce0d9cdc19cp1db50cjsn5990ce11d0f1",
+      "X-RapidAPI-Key": "337b80d528msh945f28feb6bc9edp103cfbjsn5c6e98b2d9ab",
       "X-RapidAPI-Host": "amazon24.p.rapidapi.com",
     },
   };
