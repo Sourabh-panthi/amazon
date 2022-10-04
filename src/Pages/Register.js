@@ -18,8 +18,8 @@ const Register = () => {
       .createUserWithEmailAndPassword(Email, Passord)
       .then((userCredential) => {
         // Signed in
-        const user = userCredential.user;
-        setUserAuthRes(user);
+        const userdata = userCredential.user;
+        setUserAuthRes(userdata);
       })
       .catch((error) => {
         const errorMessage = error.message;

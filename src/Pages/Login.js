@@ -18,8 +18,8 @@ const Login = () => {
       .signInWithEmailAndPassword(Email, Password)
       .then((userCredential) => {
         // Signed in
-        const user = userCredential.user;
-        setUserAuthRes(user);
+        const userdata = userCredential.user;
+        setUserAuthRes(userdata);
       })
       .catch((error) => {
         const errorMessage = error.message;
